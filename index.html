@@ -18,11 +18,23 @@
     </style>
 </head>
 <body>
-    <header class="bg-[#FFFBF0] pl-4">
-        <nav></nav>
-
+    <header class="bg-[#FFFBF0] pt-6 pl-4">
+        <nav class="flex justify-between">
+            <div>
+                <img class="w-52 lg:w-72" src="./icons/logo.png" alt="">
+            </div>
+            <div>
+                <img class="md:hidden lg:hidden" src="./icons/menu-2-outline 1.png" alt="">
+                <ul class="max-sm:hidden flex gap-9 text-lg font-mediuml font-poppins text-[#363958]">
+                    <a href="">Home</a>
+                    <a href="">Product</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </ul>
+            </div>
+        </nav>
         <!-- Banner Section Starts -->
-         <section class="md:flex md:items-center md:justify-around">
+         <section class="md:flex md:items-center md:justify-around pb-20">
             <div class="">
                 <h1 class="text-7xl uppercase font-bebas-neue "><span class="text-lime-600">Be the Penguins</span><br>
                     <span class="text-[#363958]">of Winter</span></h1>
@@ -42,11 +54,11 @@
     <main>
 
         <!-- Woman Jacket Section Starts -->
-         <section class="mt-24">
+         <section class="mt-16">
             <h3 class="uppercase text-5xl font-bebas-neue text-[#363958] mb-6">Woman Jacket</h3>
             <!-- Woman Jacket card container -->
-             <!-- Card-1 -->
-              <div class="md:flex bg-[#FFF]">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-[#FFF]">
+                 <!-- Card-1 -->
                 <div>
                     <div class="p-4 drop-shadow-lg rounded-2xl">
                         <img class="rounded-2xl p-5 bg-[#F1F1F1] mb-1.5" src="./images/jacket-1.png" alt="">
@@ -66,11 +78,11 @@
                  <div>
                     <div class="p-4 drop-shadow-lg rounded-2xl">
                         <img class="rounded-2xl p-5 bg-[#F1F1F1] mb-1.5" src="./images/jacket-2.png" alt="">
-                        <h2 class="font-poppins text-[#363958] text-2xl font-semibold">Yellow Coat Jacket </h2>
-                        <p>Buy this yellow color jacket perfectly matched amd fitting.</p>
+                        <h2 class="font-poppins text-[#363958] text-2xl font-semibold">Ladies Jacket </h2>
+                        <p>This jacket is very premium with good fabrics.</p>
                      </div>
                      <div class="flex justify-between px-4">
-                        <h3 class="text-lime-600 text-3xl font-semibold">99$</h3>
+                        <h3 class="text-lime-600 text-3xl font-semibold">120$</h3>
                         <button class="bg-orange-400 px-4 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#FABE4C]">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
@@ -82,11 +94,11 @@
                  <div>
                     <div class="p-4 drop-shadow-lg rounded-2xl">
                         <img class="rounded-2xl p-5 bg-[#F1F1F1] mb-1.5" src="./images/jacket-3.png" alt="">
-                        <h2 class="font-poppins text-[#363958] text-2xl font-semibold">Yellow Coat Jacket </h2>
-                        <p>Buy this yellow color jacket perfectly matched amd fitting.</p>
+                        <h2 class="font-poppins text-[#363958] text-2xl font-semibold">Woman Leather Jacket</h2>
+                        <p>This Red color jacket perfectly matched and fitting.</p>
                      </div>
                      <div class="flex justify-between px-4">
-                        <h3 class="text-lime-600 text-3xl font-semibold">99$</h3>
+                        <h3 class="text-lime-600 text-3xl font-semibold">72$</h3>
                         <button class="bg-orange-400 px-4 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#FABE4C]">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
@@ -97,6 +109,63 @@
               </div>
          </section>
         <!-- Woman Jacket Section Ends -->
+
+        <!-- Man Jacket Section Starts -->
+         <section class="mt-16">
+            <h3 class="uppercase text-5xl font-bebas-neue text-[#363958] mb-6">Man Jacket</h3>
+            <!-- Woman Jacket card container -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-[#FFF]">
+                 <!-- Card-1 -->
+                <div>
+                    <div class="p-4 drop-shadow-lg rounded-2xl">
+                        <img class="rounded-2xl p-5 bg-[#F1F1F1] mb-1.5" src="./images/jacket-4.png" alt="">
+                        <h2 class="font-poppins text-[#363958] text-2xl font-semibold">Snowboard Jacket Mens</h2>
+                        <p>Buy this yellow color jacket perfectly matched amd fitting.</p>
+                     </div>
+                     <div class="flex justify-between px-4">
+                        <h3 class="text-lime-600 text-3xl font-semibold">110$</h3>
+                        <button class="bg-orange-400 px-4 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#FABE4C]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                              </svg>
+                              SHOP NOW</button>
+                     </div>
+                 </div>
+                 <!-- Card-2 -->
+                 <div>
+                    <div class="p-4 drop-shadow-lg rounded-2xl">
+                        <img class="rounded-2xl p-5 bg-[#F1F1F1] mb-1.5" src="./images/jacket-5.png" alt="">
+                        <h2 class="font-poppins text-[#363958] text-2xl font-semibold">Man Leather Jackets</h2>
+                        <p>This jacket is very premium with good fabrics.</p>
+                     </div>
+                     <div class="flex justify-between px-4">
+                        <h3 class="text-lime-600 text-3xl font-semibold">70$</h3>
+                        <button class="bg-orange-400 px-4 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#FABE4C]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                              </svg>
+                              SHOP NOW</button>
+                     </div>
+                 </div>
+                 <!-- Card-3 -->
+                 <div>
+                    <div class="p-4 drop-shadow-lg rounded-2xl">
+                        <img class="rounded-2xl p-5 bg-[#F1F1F1] mb-1.5" src="./images/jacket-6.png" alt="">
+                        <h2 class="font-poppins text-[#363958] text-2xl font-semibold">Man Casual Jackets</h2>
+                        <p>This Black color jacket perfectly matched and fitting.</p>
+                     </div>
+                     <div class="flex justify-between px-4">
+                        <h3 class="text-lime-600 text-3xl font-semibold">92$</h3>
+                        <button class="bg-orange-400 px-4 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#FABE4C]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                              </svg>
+                              SHOP NOW</button>
+                     </div>
+                 </div>
+              </div>
+         </section>
+        <!-- Man Jacket Section Ends -->
     </main>
     <footer>
 
